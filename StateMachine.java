@@ -48,7 +48,6 @@ public class StateMachine {
     
 //funcao para abrir o arquivo
     public static void abrirArquivo(){
-        System.out.println("Coloque o nome do arquivo ou diretorio:");
         path = Paths.get("C:\\Users\\Rodrigo\\IdeaProjects\\PARA-CONCU-DISTRI\\src\\arquivosDeTexto");
         if(Files.exists(path)){
             lerArquivo();
